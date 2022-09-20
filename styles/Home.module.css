@@ -1,5 +1,15 @@
 .container {
-  padding: 0 2rem;
+  padding: 0 20px;
+}
+@media screen and (max-width: 1200px) {
+  .main {
+    max-width: 960px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .main {
+    max-width: 1168px;
+  }
 }
 
 .main {
@@ -10,6 +20,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 1568px;
+  margin: 0 auto;
 }
 
 .footer {
